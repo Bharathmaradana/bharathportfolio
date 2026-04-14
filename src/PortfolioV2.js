@@ -119,7 +119,7 @@ const stats = [
 const snowflakes = Array.from({ length: 26 }, (_, index) => index + 1);
 
 function PortfolioV2() {
-  const resumeFileName = "BharathMaradanaResume (3) (1) (1).pdf";
+  const resumeFileName = "BharathMaradanaResume_1.pdf";
   const resumePath = `${process.env.PUBLIC_URL}/${encodeURIComponent(
     resumeFileName
   )}`;
