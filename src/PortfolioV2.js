@@ -120,7 +120,7 @@ const snowflakes = Array.from({ length: 26 }, (_, index) => index + 1);
 
 function PortfolioV2() {
   // const resumeFileName = "BharathMaradanaResume_1.pdf";
-  const resumePath = "./BharathMaradanaResume_1.pdf";
+  const resumePath = "/BharathMaradanaResume_1.pdf";
 
   return (
     <div className="App">
